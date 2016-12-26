@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+</head>
+
+<body>
+    Name:
+    <input type="text" data-ng-model="name" placeholder="Enter your name">
+    <h1>HELLO {{name}} !</h1>
+</body>
+
+</html>
